@@ -377,12 +377,12 @@ print(metrics)
 
 ## -----------Save Predicted Probabilities  and all the models-------------------
 
-write.csv(rf_probs, "rf_predicted_probs_17clinical17SNPs_RFE.csv", row.names = FALSE)
-write.csv(svm_probs, "svm_predicted_probs_17clinical17SNPs_RFE.csv", row.names = FALSE)
-write.csv(gbm_probs, "gbm_predicted_probs_17clinical17SNPs_RFE.csv", row.names = FALSE)
-write.csv(lr_probs, "logreg_predicted_probs_17clinical17SNPs_RFE.csv", row.names = FALSE)
-write.csv(dt_probs, "dt_predicted_probs_17clinical17SNPs_RFE.csv", row.names = FALSE)
-write.csv(lda_probs, "lda_predicted_probs_17clinical17SNPs_RFE.csv", row.names = FALSE)
+write.csv(rf_probs, "rf_predicted_probs.csv", row.names = FALSE)
+write.csv(svm_probs, "svm_predicted_probs.csv", row.names = FALSE)
+write.csv(gbm_probs, "gbm_predicted_probs.csv", row.names = FALSE)
+write.csv(lr_probs, "logreg_predicted_probs.csv", row.names = FALSE)
+write.csv(dt_probs, "dt_predicted_probs.csv", row.names = FALSE)
+write.csv(lda_probs, "lda_predicted_probs.csv", row.names = FALSE)
 
 
 
