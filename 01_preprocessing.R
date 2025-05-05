@@ -38,7 +38,7 @@ library(PRROC)
 
 # Set working directory and read dataset
 setwd("") 
-merged<-fread("") #only the SNPs that were typed in the UKB so that we can have the same pool of SNPs 
+merged<-fread("") #read the csv file
 view(merged)
 #attach(merged)
 
