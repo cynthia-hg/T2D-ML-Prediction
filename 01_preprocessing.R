@@ -64,13 +64,6 @@ merged2 <- merged %>%
     CVD = ifelse(CVD == 0, "No", "Yes")
       )
 
-print(colnames(merged))
-
-# Drop unnecessary columns and inspect the data
-view(merged)
-print(colnames(merged))
-merged2<- merged2 %>% select(-c( ID.sample, FID, IID))
-view(merged2)
 print(colnames(merged2))
 
 
