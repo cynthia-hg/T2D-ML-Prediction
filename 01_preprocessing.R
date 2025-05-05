@@ -36,6 +36,12 @@ library(verification)
 library(PRROC)
 
 
+#Clinical and genetic features included in the dataset:
+#Age, Gender, Weight, BMI, Height, Triglyceride, Total.Cholesterol, HDL, LDL, CVD, T2D, Hyperlipidemia, Hypertension, Fx.Hypertension, Fx.T2D, Fx.Hyperlipidemia, Smoking., Fx.CVD, 
+#rs12137794, rs587404, rs1260326, rs2943641, rs2943645, rs2972143, rs2877716, rs10804976, rs7756992, rs3130501, rs3132946, rs2395163, rs2395182, rs6903608, rs2395185, rs9275595, rs987237, 
+#rs9388489, rs4273712, rs2246012, rs10244051, rs4607517, rs13266634, rs4977756, rs10965243, rs11257655, rs10906115, rs6583826, rs5015480, rs7923837, rs7903146, rs5215, rs11555762, rs1387153, 
+#rs2166706, rs8756, rs3764002, rs10146997, rs4886707, rs7177055, rs8042680, rs8050136, rs7202877, rs13342692, rs12970134, rs2075650
+
 # Set working directory and read dataset
 setwd("") 
 merged<-fread("") #read the csv file
