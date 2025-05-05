@@ -66,12 +66,3 @@ source("02_model_training.R")
 source("03_model_evaluation.R")
 ```
 
-## 📌 Notes
-
-- This project supports the manuscript submission to the *Computational and Structural Biotechnology Journal*.
-- The dataset is not included in this repository but the feature names are listed above.
-
-## 📄 License
-
-MIT License
-
